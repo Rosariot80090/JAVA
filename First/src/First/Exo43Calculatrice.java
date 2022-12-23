@@ -8,19 +8,18 @@ public class Exo43Calculatrice {
     public static void main (String[] args) {
         Scanner sc = new Scanner(in);
 
-
         double a ;
         System.out.print("Entrer un nombre a  :  ");
         a = sc.nextDouble();
 
         System.out.print("Entrer l'opérateur :  ");
-        String var = sc.next();
+        String op = sc.next();
 
         double b ;
         System.out.print("Entrer un nombre b  :  ");
         b = sc.nextDouble();
 
-        switch (var){
+        switch (op){
             case "/":
                 if(b==0){
                     System.out.print("Erreur : le diviseur b doit être différent de ZERO !!");

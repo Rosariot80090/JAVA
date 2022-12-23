@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/First" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,7 +41,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -69,6 +69,9 @@
       <workItem from="1671003797508" duration="16702000" />
       <workItem from="1671090447832" duration="15633000" />
       <workItem from="1671176554091" duration="7746000" />
+      <workItem from="1671462978367" duration="4345000" />
+      <workItem from="1671608277997" duration="21923000" />
+      <workItem from="1671781399431" duration="2877000" />
     </task>
     <servers />
   </component>
@@ -89,5 +92,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit java" />
     <option name="LAST_COMMIT_MESSAGE" value="First commit java" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -13,19 +13,24 @@ import java.util.Scanner;
 */
 public class Exo46Palindrome {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Saisissez un mot :  ");
         String mot = sc.nextLine();
-        String Pal = mot.toLowerCase();//Converti tout en minuscule
 
-        if (mot) {
-            System.out.println(Pal +"  est un Palindrome");
-        }else{
-            System.out.println(Pal +"  n'est un Palindrome");
+        if (estUnPalindrome(mot)) {
+            System.out.println("le mot est un palindrome");
+        } else
+            System.out.println("le mot n'est pas un palindrome");
+    }
+public static Boolean estUnPalindrome(String mot) {
+        boolean palindrome = true;
+
+        for(int i=0; i<mot.length(); i++) {
+            if(mot.charAt(i) != mot.charAt(mot.length() - 1 - i))
+                palindrome = false;
         }
-       for (int i=0; i<Pal.length();i++){
-        boolean Pal = true;
-
+        return palindrome;
     }
 }
